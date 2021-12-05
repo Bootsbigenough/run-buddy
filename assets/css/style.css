@@ -10,6 +10,8 @@ header {
     padding-left: 25px;
     background-color: #39a6b2;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header nav ul li {
     display: inline;
@@ -143,7 +145,6 @@ section {
     border-bottom: 3px solid;
     display: inline-block;
     border-color:#39a6b2;
-    text-decoration: underline;
 }
 .primary-border {
     border-color: #fce138
@@ -151,7 +152,7 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
-.trainer-bio {
+.trainers {
     text-align: center;
 }
 .trainer {
@@ -189,6 +190,7 @@ section {
 .text-right {
     text-align: right;
 }
+/* Reach out Styles */
 
 .contact {
     text-align: center;
